@@ -1,0 +1,292 @@
+Ticket System Layout
+
+Login page
+	-login form
+	-login using username or email
+	-login authentication
+	-able to show password
+	-create new account separated
+		-lead to new registration page
+	-forget username and/or password
+	-error messages
+	-reset password through questions/email/verification code
+	-warning for cap lock
+	-temporarily lock account after a number of attempted failed login
+	-logo
+
+Registration page
+	-registration form
+	-user information
+		-first name
+		-last name
+		-email/username
+		-password
+		-confirm password
+		-verification
+			-click on images
+			-key in text imaged on webpage
+	-check box for terms of agreement
+	-logo
+
+Dashboard
+	-banner (at top)
+		-search option
+		-open chat
+		-settings option
+		-user option
+		-notifications
+	-application navigator (left side)
+		-search option at top
+		-menu options at middle right
+			-Dashboard
+			-Tickets
+				-Create
+				-Assigned
+				-Opened
+				-Unassigned
+				-Resolved
+				-All
+				-Overview
+			-Address Book
+			-Resources
+			-****Adminstrative Options****
+				-Role Assignment
+				-Creating Groups
+		-favorite option at middle left
+		-minimize option at bottom
+	-content (middle)
+
+-----------------------------------------------------------------
+
+Banner Options:
+User
+	-display icon
+	-drop down menu
+	-change username/password
+	-change contact information
+	-user settings
+
+Search Menu
+	-open side menu to right
+	-display related knowledge to searched word
+	-hyperlinks to open up for more information
+	-button to go back and forward
+	-button to go to company documentation
+
+Notifications
+	-alert user to chats, contact, etc.
+
+Chat Box
+	-display bottom right
+
+Settings
+	-options to select how customer incidents are received
+
+-----------------------------------------------------------------
+
+Navigator Menu:
+Search
+	-search for specific option in menu
+
+Menu Tab
+	-Dashboard
+		-top display
+			-assigned tickets
+			-unresolved tickets
+			-overdue tickets
+			-opened tickets
+			-on hold tickets
+			-unassigned tickets
+			-ticket history
+		-middle top display
+			-inbox email
+			-missed/current chat
+		-middle bottom display
+			-user general data
+				-response time
+				-current day resolved tickets
+				-current day received tickets
+		-bottom display
+			-user information
+				-achievements
+				-leaderboard
+				-agents available
+				-support team
+			-customer satisfaction
+				-positive
+				-neutral
+				-negative
+				-comments
+	-Tickets
+		-auto to all tickets display in content area
+		-opens drop down menu
+	-Address Book
+		-display current and existing customers in boxes like tickets
+		-clicking will open up customer information
+	-Resources
+		-display most common asked questions
+		-search option to display search menu
+		-direct link to documentation
+		-display section for how to do things
+			-setup email
+			-setup ticket system
+			-setup response
+	-****Administrative Options****
+		-Assign Roles
+			-display list of users to select
+			-search option to search for user
+			-role option to select role for user
+			-assign button to assign user to role
+		-Assign Groups
+			-display list of users with roles
+			-display list of groups with roles
+			-assign user to group
+			-assign button
+	-Minimize
+		-located at bottom
+		-button to minimize menu
+
+-----------------------------------------------------------------
+
+Ticket Dropdown Menu:
+	-all tickets
+		-total all tickets
+		-filter options at top
+		-display tickets separate boxes
+		-ticket minimize display
+			-checkbox at right to select
+			-display customer icon and name
+			-subject display partial beginning of incident report
+			-priority rating
+				-matching color
+				-dropdown menu to change its priority
+			-type of incident
+			-status
+				-open
+				-resolved
+				-pending
+				-assigned
+			-assigned individual name/group/team
+			-location of reported incident
+		-hovering gives simple incident explanation
+	-Create
+		-menu across top
+			-submit button
+			-resolve button
+			-attachment button
+		-display dropdown menus for ticket settings at top
+			-ID number auto-generated
+			-customer
+				-has button to open up more information
+				-pull from address book
+				-fill out for new customer information
+			-type of incident
+				-category
+				-subcategory
+			-item effected
+				-outlook email
+				-windows
+				-ipad
+			-customer contact type
+				-email
+				-mail
+				-phone
+				-walk in
+				-self service
+					-filled out form online
+			-status
+				-new
+				-in progress
+				-hold
+				-resolved
+				-closed
+				-canceled
+			-priority
+				-show color matching
+			-assigned group
+			-assigned person
+		-short description of incident
+			-able to auto search through knowledge base
+			-pull up related issues
+	-Assigned
+		-total tickets assigned to user
+		-filters to display tickets assigned to user
+		-same feature as all tickets display for tickets
+		-click on ticket
+			-mini menu at top
+				-star
+				-reply
+				-forward
+				-close
+				-delete
+				-chat box
+				-phone call
+				-add note
+			-status of days the ticket was created
+			-display ticket content
+				-similar to email look
+				-heading at top showing customer information
+				-incident issue in the middle
+				-history of incident at bottom
+					-customer checked knowledge information
+					-previous called in to contact
+			-ticket status at the right side
+				-ID number
+				-type of incident
+				-status
+				-priority
+				-assigned user info
+				-additional information options
+			-click on customer information
+				-open up another screen
+				-display customer information
+					-icon/picture
+					-name
+					-email
+					-phone
+					-location/address
+					-status related to ticket
+						-opened ticket on date
+						-closed/resolved on date
+						-refunded on date
+				-other tickets history by customer
+			-click on reply
+				-open separate email like box bottom
+				-reply to customer
+				-option should include
+					-cc
+					-select templated responses
+					-signatures
+			-click on forward
+				-open separate email like box bottom
+				-forward to team member
+	-Opened
+		-displays tickets previously worked but not completed
+	-Unassigned
+		-displays tickets that are not assigned yet
+	-Resolved
+		-previously resolved tickets
+		-can be set to certain days before deleted
+	-All
+		-opens up all tickets to display
+	-Overview
+		-statistics
+			-created tickets
+			-tickets resolved
+			-unresolved tickets
+			-reopened tickets
+			-time to assign ticket to user
+			-response times
+			-resolve times
+			-phone useage
+			-email responses
+			-ticket amount in each priorities
+			-ticket amount in each type of issue
+	
+-----------------------------------------------------------------
+
+Settings
+	-auto email system into tickets
+	-auto user creation of tickets
+	-auto phone system to tickets
+	-auto convert user response to emails sent to customers

@@ -1,0 +1,49 @@
+Ticket System Features
+
+Omni Channel Support
+	-Report issues through multiple points of contact
+		-email
+		-social media
+		-live chat
+		-phone
+		-in person
+		-help desk
+
+Ticket Assignments
+	-Ticket flow
+		-categorize
+		-prioritize
+		-assign
+
+Workflow Automation
+	-Automate the minial tasks
+		-macros
+		-SLAs
+		-bots
+		-auto categorize tickets by time, task, issue, etc.
+		-keep record of history of task, tickets, conversation, etc.
+
+Reporting and Analysis
+	-Generate reports to analyze ticket progress and team performance
+		-days to complete ticket task
+		-average time to resolve issues
+		-types of issue occurring
+		-help improve system to areas needed
+		-identify trends
+		-recurring issues and duplicates
+
+Knowledge Base
+	-self-service portal
+	-Help and search option for customers/users
+
+Security
+	-IP restrictions
+	-message encryption
+	-access control to regulate user groups and privileges
+	-virus scanning for messages and attachments
+	-SSL URL encryption for cloud-based systems
+
+Feedback
+	-enable collection of customer feedback
+	-measure customer satisfaction
+	-can be surveys or other methods

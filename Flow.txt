@@ -1,0 +1,56 @@
+Ticket System Flow
+
+1. Detect and Record
+    -automate recording of incident
+    -reported by customer
+    -make new ticket by the team user
+    -ticket can be created by:
+        -fax
+        -telephone
+        -email
+        -web
+
+2. Classify and Prioritise
+    -group or sort ticket by issue
+    -top priority issue
+    -low priority issue
+    -based on company needs:
+        -impact
+            -costumers effect
+            -services effect
+            -reputation
+        -urgency
+            -time taken for incident to have significant impact on services
+            -extent to which the incident's resolution can bear delay
+        -priority
+            -how quickly the team should address the incident
+            -used to identify required time for actions to be taken
+            -priority = impact + urgency
+
+3. Investigate and Diagnose
+    -team investigate and figure out how to fix issue
+    -recording must have enough details to help with issue
+
+4. Resolution and Restore
+    -if unable to fix issue, use temporary work around
+    -fix issue
+
+5. Incident Closure
+    -track of issue history
+    -customer can access history of issue
+
+Ticket Prioritization
+Urgency     Priority        Impact
+--------------------------------------------------------------
+Urgent      Critical        High (organization affect)
+            Important       Medium (department affect)
+            Normal          Low (1-5 users affect)
+Normal      Important       High (organization affect)
+            Normal          Medium (department affect)
+            Low             Low (1-5 users affect)
+
+Resolution Flow
+----------------------------------------------------------------------------------
+Diagnose-->Escalation--Yes-->Investigate and Diagnose-->Resolve-->Incident Closure
+            |
+            --No-->Investigate and Diagnose-->Resolve-->Incident Closure
